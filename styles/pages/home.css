@@ -65,6 +65,10 @@ footer .social-media:hover {
     margin-right: auto;
   }
 }
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   background-color: #7ebcf1;
@@ -83,7 +87,6 @@ body .strike {
   color: rgb(2, 2, 2);
   padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;

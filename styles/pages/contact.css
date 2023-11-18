@@ -65,6 +65,10 @@ footer .social-media:hover {
     margin-right: auto;
   }
 }
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   background-color: #7ebcf1;
@@ -115,7 +119,6 @@ main form .submit {
 }
 main form .submit a:link, main form .submit a:visited, main form .submit a:hover, main form .submit a:active {
   color: #000000;
-  text-decoration: none;
 }
 main form .submit #submit {
   height: 40px;
