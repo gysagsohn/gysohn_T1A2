@@ -1,0 +1,28 @@
+@import "../../index";
+@import "../components/contactbutton";
+@import "../components/font";
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    section {
+        .home-image {
+            img{
+                height: 500px;
+                width: 100%;
+            }
+        }
+    }
+
+    article {
+        margin: 20px 0px;
+        text-align: justify;
+        width: 500px;
+
+    }
+}

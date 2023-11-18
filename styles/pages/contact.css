@@ -1,0 +1,160 @@
+header {
+  background-color: #ddf8db;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  header .logo-name {
+    margin-bottom: 48px;
+    transition: transform 0.2s;
+  }
+}
+header .logo-name img {
+  width: 100px;
+}
+header .logo-name:hover {
+  transform: scale(1.5);
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header #nav-items a {
+  text-decoration: none;
+  color: #7940f4;
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #ddf8db;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.2s;
+}
+footer .social-media a i {
+  color: rgba(22, 21, 21, 0.664);
+  font-size: 50px;
+  width: 50px;
+}
+footer .social-media .info {
+  color: rgb(21, 21, 255);
+}
+footer .social-media:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 700px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: #7ebcf1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .strike {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: arial;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements label {
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input {
+  border: 1px solid #ddf8db;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input#form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:not(#form-textarea) {
+  height: 35px;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 0 0 10px 3px #ddf8db;
+}
+main form .submit {
+  text-align: center;
+}
+main form .submit a:link, main form .submit a:visited, main form .submit a:hover, main form .submit a:active {
+  color: #000000;
+  text-decoration: none;
+}
+main form .submit #submit {
+  height: 40px;
+  background-color: #ddf8db;
+  border: none;
+  min-width: 120px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+main form .submit:hover {
+  animation: shaking 0.5s infinite;
+}
+@keyframes shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  main form {
+    width: 500px;
+  }
+  main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+}/*# sourceMappingURL=contact.css.map */

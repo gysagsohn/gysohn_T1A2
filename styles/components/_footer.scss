@@ -1,0 +1,42 @@
+@import "../defaults/colors";
+@import "../defaults/breakpoints";
+@import "./utils";
+
+footer {
+    @include background-stuff();
+
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: transform .2s;
+    
+        a {
+            i {
+                color: rgba(22, 21, 21, 0.664);
+                font-size: 50px;
+                width: 50px;
+            }
+        }
+
+        .info {
+            color: rgb(21, 21, 255);
+        }
+    }
+
+    .social-media:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+@media screen and (min-width: $medium) {
+    footer {
+        .social-media {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

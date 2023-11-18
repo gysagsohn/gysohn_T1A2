@@ -1,0 +1,28 @@
+@import "../../index";
+@import "../../styles/components/readmore";
+@import "../components/font";
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    article {
+        height: 100%;
+        margin: 20px 0px;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+        background-color: $primary-color;
+        border-radius: 20%;
+
+
+        section {
+            .blog-image {
+                width: 300px;
+            }
+        }
+    }
+}

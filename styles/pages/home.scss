@@ -1,0 +1,22 @@
+@import "../../index";
+@import "../components/contactbutton";
+@import "../components/font";
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+
+    section {
+        .home-image {
+            img{
+                height: 400px;
+                width: 100%;
+            }
+        }
+    }
+
+}

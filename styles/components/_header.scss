@@ -1,0 +1,49 @@
+@import "../defaults/colors";
+@import "../defaults/breakpoints";
+@import "./utils";
+
+header {
+    @include background-stuff();
+    
+    .logo-name {
+        @media screen and (max-width: $medium) {
+            margin-bottom: 48px;
+            transition: transform .2s;
+        }
+
+        img {
+            width: 100px;
+        }
+
+    }
+    
+    .logo-name:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    #nav-items {
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+
+        a {
+            text-decoration: none;
+            color: $secondary-background;
+        }
+    }
+}
+
+@media screen and (min-width: $medium) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        }
+
+        #nav-items {
+            width: 50%;
+        }
+    }

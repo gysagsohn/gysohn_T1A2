@@ -1,0 +1,19 @@
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "./styles/components/header";
+@import "./styles/components/footer";
+
+
+
+
+body {
+    margin: 0;
+    background-color: $primary-background;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .strike {text-decoration: line-through;}
+
+}
