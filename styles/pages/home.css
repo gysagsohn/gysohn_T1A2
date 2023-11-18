@@ -118,4 +118,12 @@ main {
 main section .home-image img {
   height: 400px;
   width: 100%;
+}
+
+@media screen and (min-width: 310px) {
+  main .content {
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }/*# sourceMappingURL=home.css.map */

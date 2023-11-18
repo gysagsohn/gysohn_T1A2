@@ -124,4 +124,12 @@ main article {
   margin: 20px 0px;
   text-align: justify;
   width: 500px;
+}
+
+@media screen and (min-width: 310px) {
+  main .content {
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }/*# sourceMappingURL=about.css.map */
