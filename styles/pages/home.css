@@ -12,9 +12,6 @@ header {
 header .logo-name img {
   width: 100px;
 }
-header .logo-name:hover {
-  transform: scale(1.5);
-}
 header #nav-items {
   display: flex;
   justify-content: space-around;
@@ -54,7 +51,7 @@ footer .social-media a i {
 footer .social-media .info {
   color: rgb(21, 21, 255);
 }
-footer .social-media:hover {
+footer .social-media .social-media:hover {
   transform: scale(1.5);
 }
 

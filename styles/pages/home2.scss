@@ -1,0 +1,29 @@
+@import "../../index";
+@import "../components/contactbutton";
+@import "../components/font";
+
+// Reset default margin and padding for all elements
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  // Style for the main section
+  main {
+    display: flex;
+    flex-direction: row; // Display images in a single column
+    align-items: center; // Center images horizontally
+  }
+  
+  // Style for each image section
+  section {
+    width: 100%; // Each section takes up 100% width
+    margin-bottom: 0.5rem; // Add margin at the bottom for spacing
+  }
+  
+  // Style for the images within each section
+  .home-image2 {
+    width: 100%; // Ensure the image takes up the entire width of its container
+    height: auto; // Maintain aspect ratio
+  }

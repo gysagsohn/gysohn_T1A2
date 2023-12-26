@@ -22,13 +22,14 @@ footer {
         .info {
             color: rgb(21, 21, 255);
         }
+
+        .social-media:hover {
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+      }   
     }
 
-    .social-media:hover {
-        -ms-transform: scale(1.5);
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-    }
 }
 
 @media screen and (min-width: $medium) {
